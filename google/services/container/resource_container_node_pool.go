@@ -635,7 +635,7 @@ var schemaNodePool = map[string]*schema.Schema{
 					Type:        schema.TypeBool,
 					Optional:    true,
 					Computed:    true,
-					Description: `Whether nodes have internal IP addresses only.`,
+					Description: `Whether nodes have internal IP addresses only. False by default.`,
 				},
 				"pod_range": {
 					Type:        schema.TypeString,
